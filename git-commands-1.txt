@@ -1,11 +1,37 @@
-git status -> prints the status of the Git repository 
-git init -> Initializes the gid repository
---below are to help us to configure git
-git config --global user.name "Let's Kode It"
-git config --global user.email letskodeit@gmail.com 
-git config user.name "Let's Kode It"
-git user.email letskodeit@gmail.com
-git add
-git commit -m ""
-git log
-Git diff <filename>
+-------------------------------------------------Git Commands------------------------------------------------------
+git status                                             -> prints the status of the Git repository 
+git init                                               -> Initializes the Git Repository                
+git config --global user.name "Let's Kode It"          -> Specify Username globally 
+git config --global user.email letskodeit@gmail.com    -> Specify Email globally
+git config user.name "Let's Kode It"                   -> Specify Username for particular repository
+git user.email letskodeit@gmail.com                    -> Specify Email for particular repository 
+git add                                                -> Add file to staging environment
+git commit -m ""                                       -> Commit file to local Git Repository
+git log						       -> Check file log history
+git remote add origin <GitHub Repository URL>          -> Establish connection to the remote GitHub Repository  
+Git diff <filename>                                    -> Push to master branch
+------------------------------------------------------------------------------------------------------------------- 
+
+Scenario 1:
+First Release -> Done
+Second Release
+	2 Features
+	2 People
+Third Release
+	1 Features
+	1 People
+
+Scenario 2:
+Two people
+
+person A -> Enhances the framework
+person B -> Automating Test Cases
+
+testMethod1 -> getName()
+
+Person A -> Merge code to master
+person B -> Pull from master to private branch, merge code to master
+
+Scenario 3:
+1 person -> Two different features
+Work on different branches
